@@ -42,3 +42,17 @@ const cookies = getCookies();
    }
  */
 ```
+
+```javascript
+// document.cookies = 'isKool=true; name=mary; pi=3.14; children=null; age=42'
+const cookies = getCookies(false);
+/*
+   cookies = {
+      isKool: 'true',
+      name: 'mary',
+      pi: '3.14',
+      children: 'null',
+      age: '42',
+   }
+ */
+```
