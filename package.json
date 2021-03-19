@@ -1,6 +1,6 @@
 {
   "name": "@toolz/get-cookies",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A utility function that parses cookies into an object",
   "keywords": [
     "cookies",
@@ -45,6 +45,6 @@
     "last 1 ie version"
   ],
   "dependencies": {
-    "@toolz/allow": "^1.1.1"
+    "@toolz/allow": "^1.1.4"
   }
 }
