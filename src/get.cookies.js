@@ -19,7 +19,7 @@ export const getCookies = (convertDataTypes = true) => {
             value = false;
          else if (value.toLowerCase() === 'null')
             value = null;
-         else if (!isNaN(parseFloat(value)))
+         else if (!isNaN(Number(value)))
             value = parseFloat(value);
       }
       cookies[key.trim()] = value;
